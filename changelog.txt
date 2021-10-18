@@ -1,11 +1,16 @@
-@Loader 1.0.0
+@loader 1.0.1
 
-+ Changed name from FF@QL to @Loader.
-+ Created new custom MsgBox form with a few categories so users can disable output messages if they'd like.
-+ Added option to reset @Loader settings to default in settings.
-+ Added the option to automatically upload all donations upon startup.
-+ Fixed bug that would cause shortcuts list to pop up twice.
-+ Fixed issue where exiting search would cause list to scroll to beginning.
-+ Setup public repo for automatic updates.
+Fixed uninstall function not working on one-word-named games.
 
+@loader 1.0.0
+
+Changed name from FF@QL to @loader.
+Created new custom MsgBox form with a few categories so users can disable output messages if they'd like.
+Added option to reset @loader settings to default in settings.
+Added the option to automatically upload all donations upon startup.
+Fixed bug that would cause shortcuts list to pop up twice.
+Fixed issue where exiting search would cause list to scroll to beginning.
+Setup public repo for automatic updates.
+Added button to show all hidden MsgBoxes again.
+Added shortcut(CTRL+ALT+A) to remove ADB RSA keys to fix issues where people's devices were showing in Device ID box but ADB was not working at all.
 HFP
