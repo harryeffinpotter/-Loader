@@ -1,1 +1,3 @@
 @Loader 1.0.3
+
+=Fixed thumbnails not loading.
