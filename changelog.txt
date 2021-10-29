@@ -1,19 +1,4 @@
-**@Loader v1.0.4**
-Fixed list selection resetting to top after using search , once and for all.
-Fixed AAPT naming of new games for upload.
-Fixed Reinstall on signature mismatch.
-Added logic in case of sig mismatch in install.txt release.
-Fixed crash that would happen when clicking the games 
-list while it was still loading.
+@Loader v1.0.5
 
-**AIO Updates:**
-**Shortcut Maker is now known as VRL which stands for VR Launcher**.
-This new PCVR helper program will create batch files with the proper
-parameters for VD or Link/AirLink to work properly. With improved 
-automatic search it will find a shipping exe if one exists (required for some
-games to launch in VR/not in flat mode). Then VRL will put the batch files
-into a tidy EXE file, using the icon of the originally found game's exe,
-The final thing VRL will then do is automatically send a shortcut to your start
-menu folder (which is tucked away in AppData\Roaming), this is so they can be
-found by Steam instantly upon clicking "Manually add non-steam game exe"
-Shortcut Maker only made bat files, which Steam does not allow.
+=Fixed Crash at startup.
+=Fixed dl speed and progress.
