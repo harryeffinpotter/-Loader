@@ -1,4 +1,6 @@
-@Loader v1.0.5
+@Loader v1.0.6
 
-=Fixed Crash at startup.
-=Fixed dl speed and progress.
+=Fixed Signature mismatch reinstalls. 
+Really, I mean it this time!
+
+HFP
