@@ -1,6 +1,4 @@
-@Loader v1.0.6
+@Loader v1.0.7
 
-=Fixed Signature mismatch reinstalls. 
-Really, I mean it this time!
-
-HFP
+=Fixed titlebar so that it actually displays current actions of @loader.
+=Fixed issue that would cause multiple obbs to accumilate in obb directory of game/app.
