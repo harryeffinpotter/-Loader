@@ -1,4 +1,4 @@
 @Loader v1.0.7
 
 =Fixed titlebar so that it actually displays current actions of @loader.
-=Fixed issue that would cause multiple obbs to accumilate in obb directory of game/app.
+=Fixed issue that would cause multiple obbs to accumulate in obb directory of game/app.
