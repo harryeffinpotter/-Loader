@@ -1,6 +1,19 @@
-@Loader v1.0.7
+@Loader v1.1.0
 
-=Fixed titlebar so that it actually displays current actions of @loader.
-=Fixed issue that would cause multiple obbs to accumulate in obb directory of game/app.
-
-HFP
+- Added Mega Donor feature which rewards those who enable auto upload. Enable auto upload and unlock cool features that include: Megadonor level/leaderboards, special discord/telegram roles and more!
+- Added crypto wallets to Donate Crypto button so users can support future development.
+- Added donors form to showcase crypto donations, donors can choose to be anonymous or to have their username shown.
+- Revamped drag and drop, users can now drag and drop folders containing obb+apk, or folders containing folders that contain obb+apk (yo dawg...). Also dropping just an apk file will also transfer nearby obbs if packagenames match.
+- Fixed bug causing certain games to not be asked for upload.
+- Added all required files to public repo so that @Loader exe can automatically obtain any missing required assets.
+- Added autoupdate feature for critical/essential updates.
+- Added multiple IP addresses for DNS check, less people should have issues with launch.
+- Added DDOS protection.
+- Reworded a few error messages.
+- Fixed issue where commands were being sent 2x.
+- Fixed automated install for various games.
+- Redesigned the look(still gotta be blue tho).
+- Fixed CTRL+P Packagename copier.
+- Changed donatable game back color from grey to pink.
+- Fixed crash when clicking uninstall without selecting an app.
+- Revamped no device mode to ensure no installing functions fire while enabled.
