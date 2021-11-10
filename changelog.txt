@@ -1,4 +1,8 @@
-@Loader v1.1.1
+@Loader 1.1.2
 
--Fixed upload issues for donating games
--Fixed update list art not updating if using arrow keys or search.
+Fixed crash where @loader would attempt to load FFA.png even if thumbnails folder is missing.
+Fixed logic for Mega Donor bonus levels.
+Added MegaDonor level to to Stat upload.
+Added secret reward tiers for Mega Donors!
+
+HFP
