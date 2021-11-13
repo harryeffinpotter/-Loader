@@ -1,8 +1,19 @@
-@Loader 1.1.2
+@loader 1.1.3
 
-Fixed crash where @loader would attempt to load FFA.png even if thumbnails folder is missing.
-Fixed logic for Mega Donor bonus levels.
-Added MegaDonor level to to Stat upload.
-Added secret reward tiers for Mega Donors!
+-Moved main list alt-text to Download/Install button.
+-Fixed issues with extract to desktop wording and logic, should work better.
+-Fixed issue that would cause download+install not to work whilst uploading.
+-Username is now stored in a property so it repopulates with previously set username when returning to settings form.
+-Fixed incorrect tooltips.
+-No Device mode will now automatically disable delete after install.
 
 HFP
+
+FREE FOR ME,
+WILL ALWAYS BE.
+FREE FOR YOU,
+NO MATTER WHO.
+FREE FOR US,
+UNTIL WE FALL-
+
+FREE FOR ALL.
