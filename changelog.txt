@@ -1,19 +1,27 @@
-@loader 1.1.3
+LOADER v2
 
--Moved main list alt-text to Download/Install button.
--Fixed issues with extract to desktop wording and logic, should work better.
--Fixed issue that would cause download+install not to work whilst uploading.
--Username is now stored in a property so it repopulates with previously set username when returning to settings form.
--Fixed incorrect tooltips.
--No Device mode will now automatically disable delete after install.
+Backups/Restores
+• Rebuilt backup function from the ground up. Users will now see a list of their installed apps where they can define which apps they want to back up.
+• Users can now make full backups of installed apps (including the app files, saves are always backed up by default).
+• Rebuilt restore function to parse the full app backups when necessary. This will reinstall the app to the exact same condition it was when it was backed up.
+• Added size estimate for full app backup since this is more storage intensive.
+• Added option to uninstall app after backing up (full or saves only).
+• Added option to clear any OBBs from apps that are not currently installed.
+• Rebuilt restore to handle installing full backups automatically.
+• Backup process will signal roughly how many GB are left to backup and how many apps are remaining as well.
 
-HFP
+QOL
+• Added shortcuts (F8 or CTRL+S) and a button in Loader's settings menu to access hidden android system settings.
+• Added offline mode for when all mirrors are at quota.
+• Added Auto Update All button - when user clicks this any apps that are out of date on their device will be automatically downloaded and installed!
+• Added ETA for downloads!
 
-FREE FOR ME,
-WILL ALWAYS BE.
-FREE FOR YOU,
-NO MATTER WHO.
-FREE FOR US,
-UNTIL WE FALL-
+Appearance
+• Added trailers for 80% of apps on Loader, the rest will be added soon.
+• Redesigned the main app, removed unnecessary information from appslist.
+• Added affiliate banner to help support further development!
 
-FREE FOR ALL.
+Fixes
+• Fixed issue where rclone was not exiting properly when user closed Loader while installing/uploading.de for when all mirrors are at quota.
+• Added Auto Update All button - when user clicks this any apps that are out of date on their device will be automatically downloaded and installed!
+• Fixed accuracy of progress bar for downloads, progress bar should no longer "go back in time".
