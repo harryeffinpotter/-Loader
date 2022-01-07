@@ -1,0 +1,29 @@
+LOADER v2.0.1
+
+-Added framework to update trailers via Rclone going forward. 
+Note: In order to enable the video trailers you are REQUIRED
+to install the latest FFAIO package. Once it is installed your
+trailer library will continually update over time as
+new games/updates become available. Installing the latest FFAIO
+package will also upgrade your mirrors for both Loader AND 
+FFA_GUI!
+
+-Fixed issue with new persistent settings system, a great deal of
+crashes should stop happening as a direct result. 
+
+-Fixing this issue has also entirely repaired Wireless ADB mode.
+(it was indeed completely broken).
+
+-Fixed v140 of SuperHot triggering the AutoUpdate.
+
+-Added fix for Winrar VS 7z.exe errors to FFAIO!! These errors would 
+occur when trying to share/extract apps to upload and/or when installing 
+special games like Beat Saber + BMBF, Blade & Sorcery + Mods, Sniper
+Elite, + anything else with an Install.txt! FFAIO is required for this
+fix since it is fixed by using the FFAIO Inno Setup script to add
+7z to user's System Path which thankfully means users will no longer need
+to uninstall WinRAR to fix this! Yay!
+
+-Fixed 8 Errant trailers. FFMPEG went a little nuts while converting 
+the trailers so if you notice any that do not match the selected game
+please let a Mod/Founder know in FFA Help! Thank you!
