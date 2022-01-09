@@ -1,0 +1,17 @@
+v2.0.2 MUST BE OBTAINED VIA FFAIO. 
+
+CLICK HERE TO GO TO THE POSTING, UPDATING VIA THIS UPDATER WILL NOT FIX ALL CRASHES.
+
+THANK YOU.
+
+Here are the FFAIO patch notes!
+
+FFIAIO 2.0.2 "CLASSREG" CRASHFIX!!!!
+- FULL VIDEO RELEASE - FINAL
+
+- "ClassReg" crash fixed - you know the one... the one that has had us pulling out our hair? The one everyone and their mother had? Well it turns out it was due to user not having Windows Media Player feature enabled or it being corrupted. This FFAIO version will automatically install it properly.
+
+- C:\videos crash fixed as well. This was caused due to the first crash happening before MainDir User Setting could be properly set. Then on next boot it would use an incomplete path.
+
+SORRY FOR THE WAIT, THIS WAS A TOUGH ONE TO FIGURE OUT, BUT PLEASE GIVE VIDEOS ANOTHER CHANCE NOW THAT THE REAL FIX IS IN!
+- FFA FOUNDERS - -
