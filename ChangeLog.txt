@@ -1,0 +1,11 @@
+v2.0.4
+
+Fixed so many broken things. Too many to list.
+Shit works now, for the most part.
+
+If it doesn't work for you-
+YOU ARE MISSING DEPENDENCIES!
+GO ON TO THE TELEGRAM AND GET 
+FFAIO INSTALLER.
+
+YA DINGUS!
