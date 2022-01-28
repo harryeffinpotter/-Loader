@@ -1,0 +1,11 @@
+v2.0.5a
+
+- Added much prettier progress bar!
+
+- Fixed major crash issues with dual-GPU Laptops.
+ 
+- Fixed issue where when a failed install occurred, bits of data were left behind that ADB did not recognize as installed apps but yet would still cause new installations to fail. This version will now automatically attempt to backup any save data, uninstall the app, reinstall it, and put back the savedata.
+
+- Added download metadata collection, this will simply inform Loader dev what games you downloaded per run of Loader to the donations server, this is so we can add cool list sorting features in the future (Sort by popularity, downloads in last 30 days, of all time, etc).
+
+- Fixed all tooltips and buttons, for real this time.
