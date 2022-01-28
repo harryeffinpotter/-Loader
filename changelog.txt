@@ -1,11 +1,13 @@
-v2.0.4
+v2.0.5b 
 
-Fixed so many broken things. Too many to list.
-Shit works now, for the most part.
+I know it has been like 6 updates in a day, I promise I am not pranking you all, I apologize.
 
-If it doesn't work for you-
-YOU ARE MISSING DEPENDENCIES!
-GO ON TO THE TELEGRAM AND GET 
-FFAIO INSTALLER.
+-Added version number to crashlog and debuglog.
+-Fixed Launcher.exe.
 
-YA DINGUS!
+Details:
+This will fix the Launcher exe, if you do not know the Launcher exe is an exe that sits in the Loader folder that does not have its name change ever, so even though Loader exe will change over time, from Loader v2.0.1 to Loader v2.0.2 and so on and so forth, the Launcher stays the same. It also removes older versions when the updater fails to do so so that users don't have multiple versions of Loader running at a time which breaks just about everything. 
+
+It has worked great since I fixed it a while ago, that is until I put out v2.0.5a and the a broke everything. The way my Launcher code works is - I have it look for Loader vWHATEVER.exe, then it will remove the v and everything before it and the ".exe" so it is left with #.#.#, then I use "String.split" and split it by the "."s so that I am left with an array of 3 numbers, I then check if the first number is highest of all in the folder, then 2nd then 3rd, but the letter threw it off. This has now been fixed and I added Launcher.exe to the repo. So if you ended up making your own shortcut for 2.0.5a, please instead get this update which will automatically obtain the new fixed Launcher.exe for you and then switch back to the shortcut to Launcher.
+
+Thanks.
