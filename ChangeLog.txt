@@ -1,11 +1,13 @@
-v2.0.5a
+v2.0.5b 
 
-- Added much prettier progress bar!
+I know it has been like 6 updates in a day, I promise I am not pranking you all, I apologize.
 
-- Fixed major crash issues with dual-GPU Laptops.
- 
-- Fixed issue where when a failed install occurred, bits of data were left behind that ADB did not recognize as installed apps but yet would still cause new installations to fail. This version will now automatically attempt to backup any save data, uninstall the app, reinstall it, and put back the savedata.
+-Added version number to crashlog and debuglog.
+-Fixed Launcher.exe.
 
-- Added download metadata collection, this will simply inform Loader dev what games you downloaded per run of Loader to the donations server, this is so we can add cool list sorting features in the future (Sort by popularity, downloads in last 30 days, of all time, etc).
+Details:
+This will fix the Launcher exe, if you do not know the Launcher exe is an exe that sits in the Loader folder that does not have its name change ever, so even though Loader exe will change over time, from Loader v2.0.1 to Loader v2.0.2 and so on and so forth, the Launcher stays the same. It also removes older versions when the updater fails to do so so that users don't have multiple versions of Loader running at a time which breaks just about everything. 
 
-- Fixed all tooltips and buttons, for real this time.
+It has worked great since I fixed it a while ago, that is until I put out v2.0.5a and the a broke everything. The way my Launcher code works is - I have it look for Loader vWHATEVER.exe, then it will remove the v and everything before it and the ".exe" so it is left with #.#.#, then I use "String.split" and split it by the "."s so that I am left with an array of 3 numbers, I then check if the first number is highest of all in the folder, then 2nd then 3rd, but the letter threw it off. This has now been fixed and I added Launcher.exe to the repo. So if you ended up making your own shortcut for 2.0.5a, please instead get this update which will automatically obtain the new fixed Launcher.exe for you and then switch back to the shortcut to Launcher.
+
+Thanks.
