@@ -1,13 +1,9 @@
-v2.0.5b 
+Loader v2.0.6
 
-I know it has been like 6 updates in a day, I promise I am not pranking you all, I apologize.
+OK So I must admit, I felt really bad for all the different version numbers. I felt bad for the amazing and really cool people who said it's no big deal, those who continued to stick with us in chate and fulfill all of my crazy requests to try to get to the bottom of this. Hopefully this one is the one that fixes 99.9% of the user base's WMP issues.
 
--Added version number to crashlog and debuglog.
--Fixed Launcher.exe.
+Thanks for sticking with us through all of the troubleshooting, y'all real ones.
 
-Details:
-This will fix the Launcher exe, if you do not know the Launcher exe is an exe that sits in the Loader folder that does not have its name change ever, so even though Loader exe will change over time, from Loader v2.0.1 to Loader v2.0.2 and so on and so forth, the Launcher stays the same. It also removes older versions when the updater fails to do so so that users don't have multiple versions of Loader running at a time which breaks just about everything. 
+So I of course couldn't come to you with just another boring fix. I decided to spend the last 11 hours maniacally working on the Sort By Popularity feature. Now it IS still in its infancy. We just started tracking downloads 2 days ago but we already have some interesting data and it will only get better over time! Eventually we will add options where you can choose what time frame to sort by, so stay tuned for that! These stats are only measured on 2.0.4 and up so if you want your fav games to be played more, gotta update. The more people we represent with this the more we know where to focus the team's efforts! Thanks again!
 
-It has worked great since I fixed it a while ago, that is until I put out v2.0.5a and the a broke everything. The way my Launcher code works is - I have it look for Loader vWHATEVER.exe, then it will remove the v and everything before it and the ".exe" so it is left with #.#.#, then I use "String.split" and split it by the "."s so that I am left with an array of 3 numbers, I then check if the first number is highest of all in the folder, then 2nd then 3rd, but the letter threw it off. This has now been fixed and I added Launcher.exe to the repo. So if you ended up making your own shortcut for 2.0.5a, please instead get this update which will automatically obtain the new fixed Launcher.exe for you and then switch back to the shortcut to Launcher.
-
-Thanks.
+-YOUSTAYGOLD
