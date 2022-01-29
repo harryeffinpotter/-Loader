@@ -1,9 +1,9 @@
-Loader v2.0.6
+2.0.7
+-Fixed trailers not showing up with Popularity sort update.
 
-OK So I must admit, I felt really bad for all the different version numbers. I felt bad for the amazing and really cool people who said it's no big deal, those who continued to stick with us in chate and fulfill all of my crazy requests to try to get to the bottom of this. Hopefully this one is the one that fixes 99.9% of the user base's WMP issues.
+-Speaking of popularity sort - it is growing insanely fast, so even with the goofup this update was insanely necessary. Since I added a local cache for the sort by popularity data. Based on your server time's with loader it should update about once per day! This is so we don't all end up hitting google quota on that particular drive and losing access to the info all together and even worse, game donations!
 
-Thanks for sticking with us through all of the troubleshooting, y'all real ones.
+-So this then is a stability update + fix the dumb tired idiot in my brain who accidentally left the trailer-player behind the mainform.
 
-So I of course couldn't come to you with just another boring fix. I decided to spend the last 11 hours maniacally working on the Sort By Popularity feature. Now it IS still in its infancy. We just started tracking downloads 2 days ago but we already have some interesting data and it will only get better over time! Eventually we will add options where you can choose what time frame to sort by, so stay tuned for that! These stats are only measured on 2.0.4 and up so if you want your fav games to be played more, gotta update. The more people we represent with this the more we know where to focus the team's efforts! Thanks again!
-
--YOUSTAYGOLD
+Hope you don't hear from me for a week or two!
+GOLD
