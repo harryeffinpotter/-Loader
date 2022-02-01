@@ -1,9 +1,5 @@
-2.0.7
--Fixed trailers not showing up with Popularity sort update.
+v2.0.8
 
--Speaking of popularity sort - it is growing insanely fast, so even with the goofup this update was insanely necessary. Since I added a local cache for the sort by popularity data. Based on your server time's with loader it should update about once per day! This is so we don't all end up hitting google quota on that particular drive and losing access to the info all together and even worse, game donations!
-
--So this then is a stability update + fix the dumb tired idiot in my brain who accidentally left the trailer-player behind the mainform.
-
-Hope you don't hear from me for a week or two!
-GOLD
+-Fixed stored wireless ADB setting not working. Oculus patched out wake on wifi so users must keep Quest plugged into wall power for Wireless ADB to work until device reboot.
+-Added warnings to NO DEVICE mode check box.
+-Added option to click NO when no device is found, if user clicks no it will temporarily enable nodevice mode.
