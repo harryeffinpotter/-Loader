@@ -1,5 +1,4 @@
-v2.0.8
+v2.0.9
 
--Fixed stored wireless ADB setting not working. Oculus patched out wake on wifi so users must keep Quest plugged into wall power for Wireless ADB to work until device reboot.
--Added warnings to NO DEVICE mode check box.
--Added option to click NO when no device is found, if user clicks no it will temporarily enable nodevice mode.
+-Fixed naming issue with donations.
+-Fixed issue where trailers/thumbnails would stop working after a game install.
