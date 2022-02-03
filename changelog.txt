@@ -1,4 +1,4 @@
-v.2.10.HF
+v.2.0.11
 
 Hot Fix:
 Fixed bug where disabling uninstall warning message would break uninstalling all together.
