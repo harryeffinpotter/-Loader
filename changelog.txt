@@ -1,3 +1,12 @@
+v.2.10.HF
+
+Hot Fix:
+Fixed bug where disabling uninstall warning message would break uninstalling all together.
+
+
+_______________
+
+
 v2.0.10
 
 -When Loader boots with no device deteted if user hits NO Loader will automatically enter No Device mode. If user UNCHECKS No Device mode, Loader will instantly search for a device, if it cannot find one it will switch back to nodevice mode. This will make it clear that your device is not connected and must be connected either wired or wirelessly in order for sideloading to work. If user plugs in device and hits Yes to try again it will instantly turn off nodevice mode and allow user to sideload. If no device mode this will prevent loader from deleting any games you download whilst in nodevice mode.
