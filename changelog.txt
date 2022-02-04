@@ -1,22 +1,9 @@
-v.2.0.11
+2.0.12
 
-Hot Fix:
-Fixed bug where disabling uninstall warning message would break uninstalling all together.
+- ADB Update. This is a critical update if you'd like your installs to go properly.
 
+This is the first time ADB was updated since August 2021. 
 
-_______________
+Required update unless you like conflicts with other ADB's that can even completely break Loader. Of course this had to come after 1019432 other updates!  Sorry guys but I'd recommend this one for stability. Like I said they rarely update it. 
 
-
-v2.0.10
-
--When Loader boots with no device deteted if user hits NO Loader will automatically enter No Device mode. If user UNCHECKS No Device mode, Loader will instantly search for a device, if it cannot find one it will switch back to nodevice mode. This will make it clear that your device is not connected and must be connected either wired or wirelessly in order for sideloading to work. If user plugs in device and hits Yes to try again it will instantly turn off nodevice mode and allow user to sideload. If no device mode this will prevent loader from deleting any games you download whilst in nodevice mode.
-
--I've said wireless ADB was fixed before and it sadly was not, well now, after hours and hours of testing I am pleased to bring to you all 2.0.10 with wireless ADB returned to its former glory. This means that as long as you have reserved your quest IP address in your router settings - you can sideload wirelessly until either A. You reboot your Quest, or B. Your Quest battery dies. As long as you make sure it has some battery left Loader will recognize it without any wires after one initial setup. It will even last for PC Reboots and all! The reason this was so difficult to do is because Oculus seems to have updated the underlying Android version so all of the required commands to enable wake on wifi were completely changed, this feature has not been working for a long time, we implore you to try it again now that it finally does.
-
--Fixed shortcut for sending ADB command and added CTRL+E (F6 or CTRL+E to send adb command!).
-
--Fixed Reboot loader(CTRL+F4) shortcut! (it was still looking for @Launcher which has had the @ removed.)
-
--Fixed Refresh All, a failsafe I put in to stop it from causing a crash had completely broken it. It now works again.
-
--Added ALT+R as new shortcut for Refresh All in addition to F5!
+In fact the last time it was updated I was still the lead developer of Rookie!
