@@ -1,3 +1,10 @@
+LOADER
+v2.0.14
+
+-Fixed somewhat rare but program breaking bug with ADB that caused Loader to get stuck on a black screen on launch.
+
+----------------------------------------------------------
+
 v2.0.13
 
 -Added code to deal with failed downloads. Now Loader will move on to the next item in the list if there is no APK file in the game folder.
