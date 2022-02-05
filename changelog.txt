@@ -1,9 +1,17 @@
-2.0.12
+v2.0.13
 
-- ADB Update. This is a critical update if you'd like your installs to go properly.
+-Added code to deal with failed downloads. Now Loader will move on to the next item in the list if there is no APK file in the game folder.
 
-This is the first time ADB was updated since August 2021. 
+-Fixed 7z.exe and 7z.dll error to be more accurate. 
 
-Required update unless you like conflicts with other ADB's that can even completely break Loader. Of course this had to come after 1019432 other updates!  Sorry guys but I'd recommend this one for stability. Like I said they rarely update it. 
+-Added proper ADB process kill to program launch.
 
-In fact the last time it was updated I was still the lead developer of Rookie!
+-Upgraded aapt to aapt2, should fix any naming issues with donations and obb install issues with drag+drop installs.
+
+-Fixed error that caused MetaData to be parsed every single time, now Loader will boot much faster on any consecutive startups within a 24 hour period.
+
+-Changed "Downloads" sort category to "Popularity" and it is now always based on the past 7 days, this is because the previous method would keep growing until Loader took 30 minutes to launch. This gives it a clean cutoff so bootup doesnt take exponentially longer.
+
+-Fixed many crashes related to ADB.
+
+-(Hopefully) fixed rare bug where errant app donations were asked for.
