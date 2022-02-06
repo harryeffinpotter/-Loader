@@ -1,4 +1,11 @@
 LOADER
+v2.0.15
+
+-OK I know what you're thinking, 2 updates in one day?! This is getting ridiculous! Well you guys with your bizarre systems keep finding new crashes. This time it was another serious one that would crash Loader completely during drag+drop installs! Now leave me alone! Please! (jk...mostly)
+
+----------------------------------------------------------
+
+LOADER
 v2.0.14
 
 -Fixed somewhat rare but program breaking bug with ADB that caused Loader to get stuck on a black screen on launch.
