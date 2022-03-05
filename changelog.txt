@@ -1,8 +1,3 @@
-FFAIO 2.1.0
--Revamped FFAIO to be much more customizable.
-
--FFAIO installer will now automatically set a default download directory in FFA-GUI and exclude it from Windows Defender (if Windows Defender is selected in the first stage of installation). This will lead to better PCVR installs.
-
 Loader 2.1.0
 
 - Added Plug and Play functionality fine-tuned to detect Quest's, this will make Loader automatically connect to your Quest, if you use Wireless ADB but want to connect to sideload a larger game faster, this will automatically detect the USB connection, switch to USB, and also detect when it is unplugged and switch back to wifi.
