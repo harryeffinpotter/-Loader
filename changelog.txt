@@ -1,31 +1,32 @@
-LOADER
-v2.0.15
+FFAIO 2.1.0
+-Revamped FFAIO to be much more customizable.
 
--OK I know what you're thinking, 2 updates in one day?! This is getting ridiculous! Well you guys with your bizarre systems keep finding new crashes. This time it was another serious one that would crash Loader completely during drag+drop installs! Now leave me alone! Please! (jk...mostly)
+-FFAIO installer will now automatically set a default download directory in FFA-GUI and exclude it from Windows Defender (if Windows Defender is selected in the first stage of installation). This will lead to better PCVR installs.
 
-----------------------------------------------------------
+Loader 2.1.0
 
-LOADER
-v2.0.14
+- Added Plug and Play functionality fine-tuned to detect Quest's, this will make Loader automatically connect to your Quest, if you use Wireless ADB but want to connect to sideload a larger game faster, this will automatically detect the USB connection, switch to USB, and also detect when it is unplugged and switch back to wifi.
 
--Fixed somewhat rare but program breaking bug with ADB that caused Loader to get stuck on a black screen on launch.
+- Added brand new "Popularity Time-Range" setting to Settings menu. This allows users to choose between top from 1day, 7days, or 30days (still sorted 1-100). This requires Loader to restart to take effect.
 
-----------------------------------------------------------
+- Moved default download\backup directories to Downloads instead of Documents to help solve issues with OneDrive.
 
-v2.0.13
+- Added uninstall from list button, this allows user to select one or more apps from Loader's MAIN list to uninstall. This is ideal for batch uninstalls or fixing broken installs that do not show up as installed in the top menu.
 
--Added code to deal with failed downloads. Now Loader will move on to the next item in the list if there is no APK file in the game folder.
+- Added DEVICE ID cover, so when we are sharing screenshots and videos we aren't giving out our DEVICE ID anymore. I obfuscated Windows Usernames in install paths in DebugLogs since I was still developing for Rookie, but now last update of loader (2.0.15) I obfuscated the DeviceID in debug logs, and now, in the program itself. You can click to reveal ID for 10 seconds at any moment!
+ 
+- Revamped backupper, fixed Full-Game backups (they were completely broken due to custom DL folders addition). There will no longer be any empty backup folders and the folder hierarchy is cleaner/makes more sense.
 
--Fixed 7z.exe and 7z.dll error to be more accurate. 
+- New dev SKRIMIX Switched Windows Media Player library to VLC, should fix ALL laptop crashing on launch issues, for good.
 
--Added proper ADB process kill to program launch.
+- SKRIMIX also fixed the rclone exe to enable Loader to work with 32 bit systems.
 
--Upgraded aapt to aapt2, should fix any naming issues with donations and obb install issues with drag+drop installs.
+- Fixed automatic mirror switching, it was not always triggering.
 
--Fixed error that caused MetaData to be parsed every single time, now Loader will boot much faster on any consecutive startups within a 24 hour period.
+- Added gameslist automatic switching.
 
--Changed "Downloads" sort category to "Popularity" and it is now always based on the past 7 days, this is because the previous method would keep growing until Loader took 30 minutes to launch. This gives it a clean cutoff so bootup doesnt take exponentially longer.
+- Added error message and automatic removal of all items in Queue when drive containing Download Directory is full, this will automatically delete the incomplete download fixing many broken installation issues across the board.
 
--Fixed many crashes related to ADB.
+- Made upload debug log button more obvious in settings menu.
 
--(Hopefully) fixed rare bug where errant app donations were asked for.
+- Fixed bug where The Climb 1 wouldn't show up on the Games list.
