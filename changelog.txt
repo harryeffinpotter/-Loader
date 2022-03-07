@@ -1,3 +1,12 @@
+Loader 2.1.1
+
+-Fixed automatic replenishing of pop data files when old file is 8 hrs old as intended, was not enabled.
+
+-Fixed 4kvod ad not disappearing entirely when games had special notes.
+
+-Added apply button to custom username box, also added code to automatically detect currentAnd applied username if any. 
+____________
+
 Loader 2.1.0
 
 - Added Plug and Play functionality fine-tuned to detect Quest's, this will make Loader automatically connect to your Quest, if you use Wireless ADB but want to connect to sideload a larger game faster, this will automatically detect the USB connection, switch to USB, and also detect when it is unplugged and switch back to wifi.
@@ -14,14 +23,14 @@ Loader 2.1.0
 
 - New dev SKRIMIX Switched Windows Media Player library to VLC, should fix ALL laptop crashing on launch issues, for good.
 
-- SKRIMIX also fixed the rclone exe to enable Loader to work with 32 bit systems.
+- Added error message and automatic removal of all items in Queue when drive containing Download Directory is full, this will automatically delete the incomplete download fixing many broken installation issues across the board.
+
+- SKRIMIX rebuilt the Rclone exe in 32-bit to enable Loader to work with 32 bit systems.
 
 - Fixed automatic mirror switching, it was not always triggering.
 
 - Added gameslist automatic switching.
 
-- Added error message and automatic removal of all items in Queue when drive containing Download Directory is full, this will automatically delete the incomplete download fixing many broken installation issues across the board.
-
-- Made upload debug log button more obvious in settings menu.
+- Made SUPPORT - upload debug log button more obvious in settings menu.
 
 - Fixed bug where The Climb 1 wouldn't show up on the Games list.
