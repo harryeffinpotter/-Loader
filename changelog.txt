@@ -1,10 +1,10 @@
 Loader 2.1.1
 
--Fixed automatic replenishing of pop data files when old file is 8 hrs old as intended, was not enabled.
+-Fixed automatic replenishing of pop data files when old file is 8 hours old as intended, was not enabled.
 
--Fixed 4kvod ad not disappearing entirely when games had special notes.
+-Fixed 4kvod ad not disappearing entirely when games had special notes + made all ad text clickable.
 
--Added apply button to custom username box, also added code to automatically detect currentAnd applied username if any. 
+-Added apply button to custom username box, also added code to automatically detect current applied username if any. 
 ____________
 
 Loader 2.1.0
