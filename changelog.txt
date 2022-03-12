@@ -1,36 +1,11 @@
-Loader 2.1.1
+Loader 2.1.2
 
--Fixed automatic replenishing of pop data files when old file is 8 hours old as intended, was not enabled.
+- Fixed automatic replenishing of pop data files when old file is 8 hours old as intended, was not enabled.
 
--Fixed 4kvod ad not disappearing entirely when games had special notes + made all ad text clickable.
+- Fixed 4kvod ad not disappearing entirely when games had special notes + made all ad text clickable.
 
--Added apply button to custom username box, also added code to automatically detect current applied username if any. 
-____________
+- Added apply button to custom username box, also added code to automatically detect current applied username if any. 
 
-Loader 2.1.0
+- Updated ADB and AAPT to latest.
 
-- Added Plug and Play functionality fine-tuned to detect Quest's, this will make Loader automatically connect to your Quest, if you use Wireless ADB but want to connect to sideload a larger game faster, this will automatically detect the USB connection, switch to USB, and also detect when it is unplugged and switch back to wifi.
-
-- Added brand new "Popularity Time-Range" setting to Settings menu. This allows users to choose between top from 1day, 7days, or 30days (still sorted 1-100). This requires Loader to restart to take effect.
-
-- Moved default download\backup directories to Downloads instead of Documents to help solve issues with OneDrive.
-
-- Added uninstall from list button, this allows user to select one or more apps from Loader's MAIN list to uninstall. This is ideal for batch uninstalls or fixing broken installs that do not show up as installed in the top menu.
-
-- Added DEVICE ID cover, so when we are sharing screenshots and videos we aren't giving out our DEVICE ID anymore. I obfuscated Windows Usernames in install paths in DebugLogs since I was still developing for Rookie, but now last update of loader (2.0.15) I obfuscated the DeviceID in debug logs, and now, in the program itself. You can click to reveal ID for 10 seconds at any moment!
- 
-- Revamped backupper, fixed Full-Game backups (they were completely broken due to custom DL folders addition). There will no longer be any empty backup folders and the folder hierarchy is cleaner/makes more sense.
-
-- New dev SKRIMIX Switched Windows Media Player library to VLC, should fix ALL laptop crashing on launch issues, for good.
-
-- Added error message and automatic removal of all items in Queue when drive containing Download Directory is full, this will automatically delete the incomplete download fixing many broken installation issues across the board.
-
-- SKRIMIX rebuilt the Rclone exe in 32-bit to enable Loader to work with 32 bit systems.
-
-- Fixed automatic mirror switching, it was not always triggering.
-
-- Added gameslist automatic switching.
-
-- Made SUPPORT - upload debug log button more obvious in settings menu.
-
-- Fixed bug where The Climb 1 wouldn't show up on the Games list.
+- Fixed issue that would cause Install.txt installs to sometimes hang.
