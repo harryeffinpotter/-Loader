@@ -1,15 +1,19 @@
-Loader 2.1.3
+Loader 2.1.4
 
-- Fix for install.txt was mistakenly left out of last update, this update fixes this. This will fix issues with many apps not installing properly.
+- If user exits while Loader is busy and they choose to abort the shutdown Loader will no longer just shutdown anyway.
 
-Loader 2.1.2
+- Updated ADB to latest version (AGAIN)
 
-- Fixed automatic replenishing of pop data files when old file is 8 hours old as intended, was not enabled.
+- Fixed issue where installing gif was not always animating.
 
-- Fixed 4kvod ad not disappearing entirely when games had special notes + made all ad text clickable.
+- Clicking installing gif will reveal Device ID as well now.
 
-- Added apply button to custom username box, also added code to automatically detect current applied username if any. 
+- Output of advanced restore has been cleaned up.
 
-- Updated ADB and AAPT to latest.
-
-- Fixed issue that would cause Install.txt installs to sometimes hang.
+- Fixed multiple issues with Advanced Backups including:
+1) If user set backup location to a removable drive and then removes the drive before next backup Loader will no longer crash.
+2) Backing up the same game twice in one day no longer causes a crash.
+3) Doing a full game backup no longer creates empty folders in Auto-Backups.
+4) Empty save folders and empty folders in any backup folder will now be automatically removed.
+5) GB Counter for sideloaded games being backed up was not set to visible.
+6) GB Count was always starting at 28GB due to a design test being left in the release build.
