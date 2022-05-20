@@ -1,19 +1,57 @@
-Loader 2.1.4
+NOTE: UPDATING VIA LOADER ITSELF WILL NOT FIX FFA GUI (PCVR) AND MANY OTHER ISSUES, PLEASE INSTALL LATEST FFAIO FROM THE TELEGRAM FOR BEST RESULTS. YOU CAN INSTALL RIGHT ON TOP OF PREVIOUS VERSION!
 
-- If user exits while Loader is busy and they choose to abort the shutdown Loader will no longer just shutdown anyway.
+-----------
+FFAIO 2.2.0
+-----------
 
-- Updated ADB to latest version (AGAIN)
+- Added new, doper icons.
 
-- Fixed issue where installing gif was not always animating.
+- Updated/Fixed PCVR mirrors for FFA GUI.
 
-- Clicking installing gif will reveal Device ID as well now.
+- Removed Quest files from FFA GUI (a necessary evil due to upcoming Google Drive limitations).
 
-- Output of advanced restore has been cleaned up.
 
-- Fixed multiple issues with Advanced Backups including:
-1) If user set backup location to a removable drive and then removes the drive before next backup Loader will no longer crash.
-2) Backing up the same game twice in one day no longer causes a crash.
-3) Doing a full game backup no longer creates empty folders in Auto-Backups.
-4) Empty save folders and empty folders in any backup folder will now be automatically removed.
-5) GB Counter for sideloaded games being backed up was not set to visible.
-6) GB Count was always starting at 28GB due to a design test being left in the release build.
+------------
+LOADER 2.2.0
+------------
+
+- Added ability to drag and drop save data directly onto Loader. Advanced recovery is still the recommended way to go but now if you just want to restore a few select saves this is for you! Loader will warn you that this will overwrite any save data currently on your device and if you accept this caveat it will automatically restore the data to the appropriate places. 
+
+You can-
+1. Drag and drop full save backups by drag dropping the "data" folder directly onto Loader. 
+2. Drag and drop save game folders individually. 
+Or 3. Drag and drop multiple specific save game folders onto Loader.
+
+P.S. Drag dropping BMBFData onto Loader will automatically restore your BMBF songs to the appropriate place, and if your full data backup contains a BMBFData folder, Loader will restore that as well if entire data folder is drag+dropped. 
+
+- Fixed Updater logic so that it will no longer offer downgrades to beta testers/early updaters.
+
+- Dramatically imrpoved boot-up time, cleaned up a lot of my sloppy past code.
+
+- Removed the ability to drag drop folders of game folders, the code was too problematic. You may still select as many game folders as you want and drag drop them simultaneously as always.
+
+- Added code that will not allow more than one instance of Loader to be run at a time. This fixes a ridiculous amount of crashes/bugs. Please note that if you close Loader it will take 1-2 minutes to be able to launch it again, this is due to ADB, RCLONE and Loader itself taking a moment to properly shut down.
+
+- Fixed errant code that caused "all mirrors have reached quota" message to appear if user was downloading or uploading and restarted Loader.
+
+- Fixed errant code that would cause Loader to get stuck at "Calculating Popularity" or "Loading popularity..."
+
+- Added code to automatically fix the issues causing these crashes so Loader will boot again properly.
+
+- Fixed Uninstall from list function (it was completely broken, it is the trash can with the RED arrow, it allows you to select a game in the MAIN list to uninstall!)
+
+- Fixed bug that caused popularity data to never update if user went 12 hours without using Loader, which was the opposite of the intended behavior - Loader will now update popularity data after it is over 12 hours old.
+
+- Added loader troubleshooter to startup, it will appear after a minute, it is recommended to wait at least an additional 1-2 minutes before resorting to using it. Most of the things it fixes have been fixed in the code itself, so it shouldn't be necessary often.
+
+- Fixed bug where "Are you sure you want to exit?" message would pop up many times.
+
+- Added logic to prevent keypresses during bootup as it would cause Loader to crash.
+
+- Added same "Are you sure you want to exit?" question to pressing CTRL+F4.
+
+- Fixed bug that would sometimes cause Loader to load a blank games list.
+
+- Fixed errant code that would force the popularity data to download at every launch - which would cause our mirrors to hit quota MUCH faster.
+
+- Fixed issue where Wireless ADB was not shutting off after a failed connection attempt (usually due to non-static IP or device reboot).
