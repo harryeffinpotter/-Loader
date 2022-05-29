@@ -1,9 +1,9 @@
-v2.2.1
+2.2.2
 
--Fixed game donations.
+- Fixed code used to force close rclone. This will fix a myriad of issues including automatic reinstall when an install fails, errant cases of the all mirrors are at quota message, downloads failing to start/getting stuck, etc.
 
--Fixed recursion loop that would keep Loader and Adb.exe open after closing Loader.
+- Fixed automatic donations.
 
--Added code to detect when obbs fail to copy due to faulty cables .
+- Added ETA, upload speed, and progress bar to uploads.
 
--Fixed donation naming schemes.
+- Added 10 second timer that will swap between download and upload speed/progress/eta if currently doing both simultaneously.
