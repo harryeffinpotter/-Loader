@@ -1,3 +1,7 @@
+2.2.3
+
+- Fixed issue where drag and drop of direct APK files would cause Loader to repeatedly claim an install had failed, even though it succeeded.
+
 2.2.2
 
 - Fixed code used to force close rclone. This will fix a myriad of issues including automatic reinstall when an install fails, errant cases of the all mirrors are at quota message, downloads failing to start/getting stuck, etc.
