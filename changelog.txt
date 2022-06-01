@@ -1,13 +1,9 @@
-2.2.3
+2.2.4
 
-- Fixed issue where drag and drop of direct APK files would cause Loader to repeatedly claim an install had failed, even though it succeeded.
+- Fixed scenarios that would cause swapping between upload/download speeds/progress to stop working.
 
-2.2.2
+- Fixed error message during installs where it complained about obb directory not being found.
 
-- Fixed code used to force close rclone. This will fix a myriad of issues including automatic reinstall when an install fails, errant cases of the all mirrors are at quota message, downloads failing to start/getting stuck, etc.
+- Fixed obb copy causing program to become unresponsive during an install, it was accidentally left outside of the threaded section.
 
-- Fixed automatic donations.
-
-- Added ETA, upload speed, and progress bar to uploads.
-
-- Added 10 second timer that will swap between download and upload speed/progress/eta if currently doing both simultaneously.
+- Fixed code that deletes zips/md5sums after game donation is complete. If you donated any titles on 2.2.2 or 2.2.3 check your _LoaderDownloads folder for left behind zips to delete.
