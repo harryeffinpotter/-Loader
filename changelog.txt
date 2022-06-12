@@ -1,9 +1,17 @@
-2.2.4
+Loader v2.2.5
 
-- Fixed scenarios that would cause swapping between upload/download speeds/progress to stop working.
+- Reintegrated/cleaned up nested drag drops. Users can once again drag+drop folders of game folders.
 
-- Fixed error message during installs where it complained about obb directory not being found.
+- Users can now drag+drop either data folder or date of backup folder to restore Saves-Only backups.
 
-- Fixed obb copy causing program to become unresponsive during an install, it was accidentally left outside of the threaded section.
+- Added code that will properly skip rclone commands if internet is down. This should, in theory, finally allow an offline mode (although it remains untested).
 
-- Fixed code that deletes zips/md5sums after game donation is complete. If you donated any titles on 2.2.2 or 2.2.3 check your _LoaderDownloads folder for left behind zips to delete.
+- Fixed quota issue happening due to game library or popularity data being at quota.
+
+- Switched TaskKill to WMIC for rclone kill and adb kill since it doesn't require administrator privileges to end tasks.
+
+- Added animation that signals Loader update is taking place.
+
+- Fixed issue where Loader updates were not working due to timer being too short for older machines.
+
+- Fixed Advanced Restore for Saves-Only backups.
