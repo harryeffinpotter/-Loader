@@ -1,17 +1,3 @@
-Loader v2.2.5
+Loader v2.2.6
 
-- Reintegrated/cleaned up nested drag drops. Users can once again drag+drop folders of game folders.
-
-- Users can now drag+drop either data folder or date of backup folder to restore Saves-Only backups.
-
-- Added code that will properly skip rclone commands if internet is down. This should, in theory, finally allow an offline mode (although it remains untested).
-
-- Fixed quota issue happening due to game library or popularity data being at quota.
-
-- Switched TaskKill to WMIC for rclone kill and adb kill since it doesn't require administrator privileges to end tasks.
-
-- Added animation that signals Loader update is taking place.
-
-- Fixed issue where Loader updates were not working due to timer being too short for older machines.
-
-- Fixed Advanced Restore for Saves-Only backups.
+- Fixed issue that caused game list to be blank when Loader launched on a dead mirror.
