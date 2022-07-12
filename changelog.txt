@@ -1,3 +1,5 @@
-Loader v2.2.6
+Loader 2.2.7
 
-- Fixed issue that caused game list to be blank when Loader launched on a dead mirror.
+- Fixed adb installation problem that lead to "this is taking a long time to install" message by using forcing adb to use legacy installation method. This issue occurred because of corrupt app installs that were not recognized by the Quest as installed yet would't allow new installs to take place.
+
+- Fixed Backup and Restore for RTL language users. be blank when Loader launched on a dead mirror.
