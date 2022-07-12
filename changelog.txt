@@ -1,3 +1,8 @@
+Loader v2.2.8
+
+- Updated adb to may 2022 release.
+
+
 Loader 2.2.7
 
 - Fixed adb installation problem that lead to "this is taking a long time to install" message by using forcing adb to use legacy installation method. This issue occurred because of corrupt app installs that were not recognized by the Quest as installed yet would't allow new installs to take place.
