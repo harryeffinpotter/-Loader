@@ -1,3 +1,7 @@
+Loader v2.2.9
+
+- Fixed typo in 2.2.8 that made adb not extract -_-
+
 Loader v2.2.8
 
 - Updated adb to may 2022 release.
