@@ -1,14 +1,9 @@
-Loader v2.2.9
+Loader v2.2.10
 
-- Fixed typo in 2.2.8 that made adb not extract -_-
+- Added Cancel button to Advanced Backup
 
-Loader v2.2.8
+- Fixed Advanced Backup and Restore
 
-- Updated adb to may 2022 release.
+- Added Cancel button to ADB Debugging prompt.
 
-
-Loader 2.2.7
-
-- Fixed adb installation problem that lead to "this is taking a long time to install" message by using forcing adb to use legacy installation method. This issue occurred because of corrupt app installs that were not recognized by the Quest as installed yet would't allow new installs to take place.
-
-- Fixed Backup and Restore for RTL language users. be blank when Loader launched on a dead mirror.
+- Fixed bug that caused brand new installs of FFAIO to not work at all.
