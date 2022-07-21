@@ -1,9 +1,5 @@
-Loader v2.2.10
+Loader v2.2.11
 
-- Added Cancel button to Advanced Backup
-
-- Fixed Advanced Backup and Restore
-
-- Added Cancel button to ADB Debugging prompt.
-
-- Fixed bug that caused brand new installs of FFAIO to not work at all.
+- Fixed KeyMapper/QAL uninstallation via Loader.
+- Added code to remove white space or empty lines from current version number, this should prevent updates from breaking.
+- Removed incorrect version of LibVLC, may fix trailers for those who had issues.
