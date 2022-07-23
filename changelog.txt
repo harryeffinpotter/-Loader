@@ -1,5 +1,3 @@
-Loader v2.2.11
+Loader v2.2.12
 
-- Fixed KeyMapper/QAL uninstallation via Loader.
-- Added code to remove white space or empty lines from current version number, this should prevent updates from breaking.
-- Removed incorrect version of LibVLC, may fix trailers for those who had issues.
+- fixed rclone issues that caused quota message even after mirrors were restored.
