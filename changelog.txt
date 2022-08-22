@@ -1,15 +1,20 @@
-Loader v3.0.00
+FFAIIO v3.0.00
 
-• Added donation goals! Top donor will be shown prominently in center of Loader along with how much to go until our first goal is met! Each time the goal is met FFA will release a highly requested buy previously unreleased app! This will go towards us adding premium features such as VIP mirrors with google drive link access and first dibs on updates/new releases that will be available as soon as they're announced on the updates feed. The loading bar will also represent a donation bar when Loader is idle!
+Loader
+• Added donation goals! Top donor will be shown prominently in center of Loader along with how much to go until our first goal is met! Each time the goal is met FFA will release a highly requested but previously unreleased app! This will go towards us adding premium features such as VIP mirrors with google drive link access and first dibs on updates/new releases that will be available as soon as they're announced on the updates feed. The loading bar will also represent a donation bar when Loader is idle!
 • Revamped Loader search, it now filters the playlist as you type to ONLY show CORRECT results!
-• Added dead mirror detection at startup. Previously when most of the mirrors were at quota Loader would have to slowly try a command on each and every mirror and then wait to verify, this is no longer the case. Loader will now load a list of down-mirrors from our private API and rule them out entirely until next launch. This results in a much faster boot time for Loader in general. So much faster in fact, that we had to remove the sound from the startup animation because it sounded weird getting abruptly cut off.
-• Offline mode is finally functional, when quota is met Loader will revert to the last known games list and users can still sideload any apps they already have downloaded without internet!
-• If Loader has a newer version of a game that User has, but Loader also has the version User has, Loader will no longer auto update nor ask for updates in these situations. (e.g. you won't be asked to share Beat Saber 1.21 just because the servers have 1.16).
+• Added dead mirror detection at startup. Previously when most of the mirrors were at quota Loader would have to slowly try a command on each and every mirror and then wait to verify, this is no longer the case. Loader will now load a list of down-mirrors from our private API and rule them out entirely until next launch. This results in a much faster boot time for Loader in general. So much faster, in fact, that we had to remove the sound from the startup animation because it sounded weird getting abruptly cut off.
+• Offline mode is finally functional, when quota is met Loader will revert to the last known games list and users can still sideload any apps they already have downloaded without internet via Drag and Drop!
+• If Loader has a newer version of a game that User has, but Loader also has the version User has, Loader will no longer ask for updates in these situations. (e.g. If both you and the server have v1.21 of a game you won't be asked to share v1.21 just because the servers also have v1.16).
 • Auto Update will no longer queue up multiple versions (Beat Saber, Blade and Sorc, etc) of the same game.
-• Although it is rare, some games backup their saves in the untouchable root partition (Walking Dead, Swordsman, Zero Caliber), Loader now has a workaround to retrieve these saves and to back them up! (Note: you must reinstall most recent version of these apps for them to be backupable!
+• Although it is rare, some games backup their saves in the untouchable root partition (Walking Dead, Swordsman, Zero Caliber), Loader now has a workaround to retrieve these saves and to back them up! (Note: This feature has not been fully tested yet! You must reinstall most recent version of these apps for them to be backupable!)
 • Added clearer signaling that a game is installing post install since some users assumed when the download was complete the install was also complete.
 • Added an MD5Sum check to help determine when sideloading issue is cable related.
 
-Will be adding my other repositories (SACM, VRL, SteamAPPID Finder, etc) to Github in the coming weeks! Stay tuned! The main Loader repo will also be going PUBLIC!
+SACM
+• When attempting to crack a Steam game and there is no APPID search results, APPID finder will now allow you to search again.
+• Fixed issue where Steam_Api.dll was not properly being replaced.
+
+I will be adding my other repositories (SACM, VRL, SteamAPPID Finder, etc) to Github in the coming weeks! Stay tuned! The main Loader repo will also be going PUBLIC.
 
 -YSG/HFP
