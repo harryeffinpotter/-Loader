@@ -1,26 +1,5 @@
-Loader 3.1
+Loader 3.1.01
 
--Added special update script to repo and to Loader launch 
-that will automatically check for and obtain latest ADB and 
-add it to system path!
-
--Trailers/Icons will now properly change while using search.
-
--Swapped RestSharp(used to get mirror down info for faster boot) f
-or HTML Request, could possibly fix SSL errors.
-
--Added window resizing functionality.
-
--Added maximize button.
-
--Added font size option in settings.
-
--Plugging in your Quest while Loader is already open will now properly 
-ncheck No Device mode unless you had manually turned it on while a Quest 
-was connected during this session.
-
--Made Tool Tips much larger and made them come up almost instantly, 
-to counterbalance this fact I added a check box to disable them in the t
-op right corner of Loader.
-
--Fixed missing ToolTips from the Settings page.
+-Fixed adb conflicts.
+-Fixed adb auto update.
+-Revamped search - https://gfycat.com/definitivebiodegradablegarpike
