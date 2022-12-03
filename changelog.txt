@@ -1,5 +1,42 @@
-Loader 3.1.01
+Loader 3.1.07
+=============
+- Fixed issue with drag-&-drop code that broke it entirely.
+- Fixed issue where Loader was hanging instead of informing user the mirrors were at quota.
+- Fixed incorrect version number displaying.
 
--Fixed adb conflicts.
--Fixed adb auto update.
--Revamped search - https://gfycat.com/definitivebiodegradablegarpike
+Loader 3.1.06
+=============
+- Loader will now ignore connected adb devices that aren't a variation of the Quest, this means it should not ask for apps off of your phone if your phone is connected.
+- Fixed related issue where No Device Mode wasn't triggering if a non-quest device with ADB was plugged in. 
+- Fixed config update issue that was deleting Loader Config and causing false quota issues.
+- Removed duplicates from mirrors list and fixed mirror initialization.
+- Loader will no longer ask users to donate Oculus environments.
+
+Loader 3.1.05
+=============
+- Removed mirror check on config update, server libary update, thumbnails update and videos update. This in theory should allow the user to "connect" to mirrors that have individual files quota'd but not the whole server.
+- Cleaned up some other crap code.
+
+Loader 3.1.04
+=============
+- Fixed issue with Loader not being able to download.
+
+Loader 3.1.03
+=============
+- Running Loader will now update FFA_GUI Config if update is available (if user has FFA_GUI installed).
+- Added Donor ticker.
+- Fixed drag-&-drop, users can now drag-&-drop folders of game folders, or folders of folders of game folders, or just game folders, or just an APK directly. XHIBIT: Yo dawg...
+- Re-wrote mirror switching logic, should have less errant quota messages overall, although there is one exception I couldn't track down that will occur when every single mirror is at quota.
+- Other bug fixes, including issues with install.txt and errant all mirrors at quota messages.
+
+Loader 3.1.02
+=============
+- Double click when search is populated will no longer reset search, this was a mistake. Instead Loader will remove the item you double clicked from your search results until you press escape or click into the search bar.
+- Some other bug fixes.
+- New server support.
+
+Loader 3.1.01
+=============
+- Fixed adb conflicts.
+- Fixed adb auto update.
+- Revamped search - https://gfycat.com/definitivebiodegradablegarpike
